@@ -7,7 +7,7 @@ int main() {
     int userGuess = 0; 
     int turns = 0;
     cout << "Welcome to Number Guessing Game!" <<endl;
-    cout << "A random number is being generated between 1 and 100." <<endl;
+    cout << "A random number is being generated between 0 and 99." <<endl;
     do{
         cout << "Please enter your guess: ";
         cin >> userGuess;
